@@ -42,7 +42,7 @@ jobs:
     steps:
        - restore_cache:
           keys: [frontend-build]
-      - run:
+       - run:
           name: front-end build
           command: |
             cd frontend
